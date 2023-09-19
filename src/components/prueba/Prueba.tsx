@@ -12,6 +12,6 @@ export default function Prueba() {
   const { locale } = useContext(langContext);
   const { example } = TEXTS_PRUEBA[locale];
   return (
-    <div>{example}</div>
+    <div className='font-bebas text-base text-center'>{example}</div>
   )
 }
